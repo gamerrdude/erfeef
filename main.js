@@ -54,7 +54,7 @@ function modelLoaded() {
     fill("#FF0001");
     stroke("#FF0000");
 
-    if(scoreRightWrist > 0.2)
+    if(scoreLeftWrist > 0.2)
     { 
         circle(rightWristX,rightWristY,20);
 
@@ -87,7 +87,7 @@ function modelLoaded() {
         }
     }
 
-    if(scoreLeftWrist > 0.2)
+    if(scoreRightWrist > 0.2)
     {
         circle(leftWristX,leftWristY,20);
         InNumberleftWristY = Number(leftWristY);
