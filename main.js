@@ -62,7 +62,7 @@ function modelLoaded() {
         {
             document.getElementById("speed").innerHTML = "Speed = 0.5x";  
      
-            song.rate(0.0000000000000000000000000000000000000000000000000000000000000001);
+            song.rate(0.1);
         }
         else if(rightWristY >100 && rightWristY <= 200)
         {
@@ -83,7 +83,7 @@ function modelLoaded() {
         else if(rightWristY >400)
         {
             document.getElementById("speed").innerHTML = "Speed = 2.5x";        
-            song.rate(121289.1327687523187623876327163761235);
+            song.rate(121);
         }
     }
 
