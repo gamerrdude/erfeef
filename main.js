@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@gamerrdude 
+gamerrdude
+/
+erfeef
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+erfeef/main.js /
+@gamerrdude
+gamerrdude Update main.js
+Latest commit d1783fa 17 seconds ago
+ History
+ 1 contributor
+108 lines (86 sloc)  2.7 KB
+   
 song = "";
 
 function preload()
@@ -105,4 +134,16 @@ function play()
     song.setVolume(9999);
     song.rate(1);
 }
-
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
